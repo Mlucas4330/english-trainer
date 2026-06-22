@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "English Trainer",
+  "version": "1.0.0",
+  "description": "Practice real world listening, grammar, vocabulary, and speaking on your way from B1 to B2 English.",
+  "action": {
+    "default_title": "English Trainer"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "permissions": ["storage", "sidePanel"],
+  "host_permissions": ["https://api.anthropic.com/*"]
+}
